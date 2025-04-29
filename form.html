@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>NeuroNexus</h2>
+            <p>Driven by youthful energy, powered by innovation, shaping the future with technology and AI.</p>
+        </div>
+        <div class="right">
+            <form>
+                <div class="details">
+                    <label for="name">Full Name</label>
+                    <input type="text">
+                </div>
+                <div class="details">
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
+                <div class="details">
+                    <label for="phone">Phone No.</label>
+                    <input id="phone" type="number">
+                </div>
+                <div class="details">
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" rows="5"></textarea>
+                </div>
+                <div class="company-details">
+                    <div class="details">
+                        <label for="name">Comapny Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="details">
+                        <label for="department">Department</label>
+                        <select  id="department">
+                            <option value="development">Development</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="hr">HR</option>
+                            <option value="sales">Sales</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="gender-options">
+                        <p>Gender : </p>
+                        <div class="gender-details">
+                            <input id="male"  name="gender" type="radio" value="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="gender-details">
+                            <input id="female"  name="gender" type="radio" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
